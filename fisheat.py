@@ -77,7 +77,7 @@ def fish_game():
                         point=point +2
                     elif e.id==leval:
                         pass
-                    else:
+                    elif e.id > leval:
                         pl.alive=False
                     
                     #遇到大鱼
