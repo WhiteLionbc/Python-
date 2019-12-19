@@ -69,7 +69,7 @@ def fish_game():
                         e.alive= False
                         point=point +1
                     else:
-                        pl.alive=False
+                        pass
                         
                     #遇到鱼
                     if e.id==1 and leval >1:
